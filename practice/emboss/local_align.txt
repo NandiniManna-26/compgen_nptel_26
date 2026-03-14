@@ -1,0 +1,36 @@
+########################################
+# Program: water
+# Rundate: Sat 14 Mar 2026 11:54:55
+# Commandline: water
+#    -asequence w4l1_seq1.fasta
+#    -bsequence w4l1_seq2.fasta
+#    -outfile local_align.txt
+# Align_format: srspair
+# Report_file: local_align.txt
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: test1
+# 2: test2
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 44
+# Identity:      26/44 (59.1%)
+# Similarity:    26/44 (59.1%)
+# Gaps:          12/44 (27.3%)
+# Score: 62.0
+# 
+#
+#=======================================
+
+test1              5 GTCTCTCT---GATAAG------GACAAGGCTGC--TGTGAAAG     37
+                     ||||| ||   ||.|||      |.||||||.||  .|.|.|||
+test2              3 GTCTC-CTGCCGACAAGACCAACGTCAAGGCCGCCTGGGGTAAG     45
+
+
+#---------------------------------------
+#---------------------------------------

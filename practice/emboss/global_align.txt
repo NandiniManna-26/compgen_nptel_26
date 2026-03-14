@@ -1,0 +1,40 @@
+########################################
+# Program: needle
+# Rundate: Sat 14 Mar 2026 11:53:54
+# Commandline: needle
+#    -asequence w4l1_seq1.fasta
+#    -bsequence w4l1_seq2.fasta
+#    -outfile global_align.txt
+# Align_format: srspair
+# Report_file: global_align.txt
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: test1
+# 2: test2
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 59
+# Identity:      24/59 (40.7%)
+# Similarity:    24/59 (40.7%)
+# Gaps:          28/59 (47.5%)
+# Score: 56.5
+# 
+#
+#=======================================
+
+test1              1 ATGAGTCTCTCT------GATAAG------GACAAGGCTGC--TGTGAAA     36
+                           ||.|||      ||.|||      |.||||||.||  .|.|.||
+test2              1 ------CTGTCTCCTGCCGACAAGACCAACGTCAAGGCCGCCTGGGGTAA     44
+
+test1             37 GCCCTATGG     45
+                     |        
+test2             45 G--------     45
+
+
+#---------------------------------------
+#---------------------------------------
