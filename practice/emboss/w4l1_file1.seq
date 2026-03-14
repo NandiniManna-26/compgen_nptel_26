@@ -1,0 +1,5 @@
+ID   test1; SV 1; linear; unassigned DNA; STD; UNC; 45 BP.
+XX
+SQ   Sequence 45 BP; 12 A; 9 C; 13 G; 11 T; 0 other;
+     ATGAGTCTCT CTGATAAGGA CAAGGCTGCT GTGAAAGCCC TATGG                        45
+//
